@@ -24,6 +24,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RoomListItem.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uigEGKxGd9pH9dAWRvZzenW2a8" />
@@ -44,6 +45,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/FPS_photon_test.v0.1.1.app/Contents/MacOS/Unity_FPS_photon" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FPS_photon_test.v0.1.1.app/Contents/MacOS" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -74,7 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625153719458</updated>
       <workItem from="1625153743156" duration="1626000" />
-      <workItem from="1625383073812" duration="9127000" />
+      <workItem from="1625383073812" duration="9412000" />
+      <workItem from="1625581045968" duration="2496000" />
     </task>
     <servers />
   </component>
