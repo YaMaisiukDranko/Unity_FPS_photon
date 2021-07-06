@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Launcher
     - Menu
     - MenuManager
+    - PlayerListItem
     - RoomListItem
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
@@ -15,8 +16,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -159,11 +158,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4244}
     - Class: 114
-      Script: {instanceID: 4384}
+      Script: {instanceID: 4284}
     - Class: 114
-      Script: {instanceID: 4684}
+      Script: {instanceID: 4386}
     - Class: 114
-      Script: {instanceID: 17728}
+      Script: {instanceID: 4686}
+    - Class: 114
+      Script: {instanceID: 17770}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -437,7 +438,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 36a872a9d07093129fd2c3905282f693
+      Hash: 271ab92ed26d6b4279c93390827defb1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Launcher
@@ -1367,6 +1368,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: e0766a0e8938b34dbdc572ce4b274d5c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomListItem
+  - hash:
+      serializedVersion: 2
       Hash: e37675de1ea5e56da90f5600d33587bd
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -1526,8 +1533,8 @@ ScriptsOnlyBuild:
       Hash: e0766a0e8938b34dbdc572ce4b274d5c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: RoomListItem
+    className: PlayerListItem
   platform: 2
   scenePathNames:
   - Assets/Scenes/Scene.unity
-  playerPath: /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/FPS_photon_test.v0.1.1.app
+  playerPath: /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/FPS_photon_test.v0.1.2.app
