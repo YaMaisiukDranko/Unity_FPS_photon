@@ -16,6 +16,8 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
+    PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -50,7 +52,32 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/Scene.unity:
+    Assets/Scenes/GameScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/MenuScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -158,13 +185,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4244}
     - Class: 114
-      Script: {instanceID: 4284}
+      Script: {instanceID: 4246}
     - Class: 114
-      Script: {instanceID: 4386}
+      Script: {instanceID: 4286}
     - Class: 114
-      Script: {instanceID: 4686}
+      Script: {instanceID: 4388}
     - Class: 114
-      Script: {instanceID: 17770}
+      Script: {instanceID: 4688}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -438,7 +465,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 271ab92ed26d6b4279c93390827defb1
+      Hash: 04a90cc83d81288f4bf20823f84a394b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Launcher
@@ -1344,6 +1371,12 @@ ScriptsOnlyBuild:
     className: CrcCheckToggle
   - hash:
       serializedVersion: 2
+      Hash: e0766a0e8938b34dbdc572ce4b274d5c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerListItem
+  - hash:
+      serializedVersion: 2
       Hash: adb92691ab0496634b4241d3545a0010
     assemblyName: PhotonUnityNetworking.dll
     namespaceName: Photon.Pun
@@ -1528,13 +1561,8 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
-  - hash:
-      serializedVersion: 2
-      Hash: e0766a0e8938b34dbdc572ce4b274d5c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerListItem
   platform: 2
   scenePathNames:
-  - Assets/Scenes/Scene.unity
-  playerPath: /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/FPS_photon_test.v0.1.2.app
+  - Assets/Scenes/MenuScene.unity
+  - Assets/Scenes/GameScene.unity
+  playerPath: /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/FPS_photon_test.v0.1.3.app

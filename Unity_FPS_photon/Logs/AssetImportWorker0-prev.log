@@ -12,58 +12,58 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54231
+54627
 Successfully changed project path to: /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon
 /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets
 GfxDevice: creating device client; threaded=0
-2021-07-06 17:24:47.363 Unity[30521:1221976] (null) preferred device: Apple M1 (high power)
-2021-07-06 17:24:47.363 Unity[30521:1221976] Metal devices available: 1
-2021-07-06 17:24:47.363 Unity[30521:1221976] 0: Apple M1 (high power)
-2021-07-06 17:24:47.363 Unity[30521:1221976] Using device Apple M1 (high power)
+2021-07-06 22:05:40.594 Unity[33514:1323254] (null) preferred device: Apple M1 (high power)
+2021-07-06 22:05:40.594 Unity[33514:1323254] Metal devices available: 1
+2021-07-06 22:05:40.594 Unity[33514:1323254] 0: Apple M1 (high power)
+2021-07-06 22:05:40.594 Unity[33514:1323254] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56521
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56514
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001753 seconds.
+Registered in 0.002092 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 29.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.046 seconds
+- Completed reload, in  1.960 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005486 seconds.
+Registered in 0.006225 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.292 seconds
+- Completed reload, in  2.430 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1628 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.8 MB.
-System memory in use after: 145.9 MB.
+Unloading 1629 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.0 MB.
+System memory in use after: 146.1 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2058.
-Total: 3.887458 ms (FindLiveObjects: 0.135959 ms CreateObjectMapping: 0.031875 ms MarkObjects: 3.331000 ms  DeleteObjects: 0.386291 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2059.
+Total: 2.279666 ms (FindLiveObjects: 0.141709 ms CreateObjectMapping: 0.032916 ms MarkObjects: 2.021000 ms  DeleteObjects: 0.081709 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -77,117 +77,47 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02549fb3d2ecc9d9f22178e28d0919d') in 0.006064 seconds 
-  Import took 0.008214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.572980 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(cc629df546da942febff9fac9e7e4f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(cc629df546da942febff9fac9e7e4f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db95cf2a355b6a1014fc12b6b0c816aa') in 0.001386 seconds 
-  Import took 0.003619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.060184 seconds.
   path: Assets/Prefabs/RoomNameButton.prefab
   artifactKey: Guid(d6c1d42caf7494b9e92d108668ee13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RoomNameButton.prefab using Guid(d6c1d42caf7494b9e92d108668ee13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9864a9a7220d3b2390f1230ea8f1df2f') in 0.860129 seconds 
-  Import took 0.862668 seconds .
+Start importing Assets/Prefabs/RoomNameButton.prefab using Guid(d6c1d42caf7494b9e92d108668ee13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940d9e34165c26e4a47ba8cd19dd4f0a') in 0.778809 seconds 
+  Import took 0.781354 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003313 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.303 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.7 MB.
-System memory in use after: 148.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2063.
-Total: 1.523125 ms (FindLiveObjects: 0.121250 ms CreateObjectMapping: 0.031792 ms MarkObjects: 1.324041 ms  DeleteObjects: 0.044750 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 86.429614 seconds.
-  path: Assets/Scripts/RoomListItem.cs
-  artifactKey: Guid(365945d3ae1b642f4bbf6fe3d13ea6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RoomListItem.cs using Guid(365945d3ae1b642f4bbf6fe3d13ea6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f81e49133f69195d0cc404a0d446af') in 0.228119 seconds 
-  Import took 0.231387 seconds .
+  Time since last request: 12.910060 seconds.
+  path: Assets/Prefabs/RoomNameButton.prefab
+  artifactKey: Guid(d6c1d42caf7494b9e92d108668ee13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RoomNameButton.prefab using Guid(d6c1d42caf7494b9e92d108668ee13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35d4a10b415c1bb58a1b432067914ee') in 0.020749 seconds 
+  Import took 0.022971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.338172 seconds.
+  path: Assets/Prefabs/RoomNameButton.prefab
+  artifactKey: Guid(d6c1d42caf7494b9e92d108668ee13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RoomNameButton.prefab using Guid(d6c1d42caf7494b9e92d108668ee13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ceec2c8ebe2b66e0f51e0536cfbbf5') in 0.019121 seconds 
+  Import took 0.021683 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003177 seconds.
+Registered in 0.013963 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.400 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.2 MB.
-System memory in use after: 153.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2067.
-Total: 1.334292 ms (FindLiveObjects: 0.111958 ms CreateObjectMapping: 0.031875 ms MarkObjects: 1.166958 ms  DeleteObjects: 0.022458 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003395 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.300 seconds
+- Completed reload, in  2.329 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.4 MB.
-System memory in use after: 153.5 MB.
+System memory in use before: 148.9 MB.
+System memory in use after: 149.0 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2071.
-Total: 1.316250 ms (FindLiveObjects: 0.110625 ms CreateObjectMapping: 0.029583 ms MarkObjects: 1.157375 ms  DeleteObjects: 0.017833 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2063.
+Total: 1.284209 ms (FindLiveObjects: 0.105667 ms CreateObjectMapping: 0.030042 ms MarkObjects: 1.119458 ms  DeleteObjects: 0.028167 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -201,32 +131,118 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 528.660450 seconds.
-  path: Assets/Scripts/RoomListItem.cs
-  artifactKey: Guid(365945d3ae1b642f4bbf6fe3d13ea6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RoomListItem.cs using Guid(365945d3ae1b642f4bbf6fe3d13ea6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32f45468a6090eefab8e16a8e9335bb') in 0.010421 seconds 
-  Import took 0.012109 seconds .
+  Time since last request: 278.717391 seconds.
+  path: Assets/Prefabs/PlayerListItem (TMP).prefab
+  artifactKey: Guid(46bfb185d47e14e53894e0b6df56eb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerListItem (TMP).prefab using Guid(46bfb185d47e14e53894e0b6df56eb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93815bf7bbfd2b28c7cc7ff2dbbbc1e') in 0.152107 seconds 
+  Import took 0.155187 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003468 seconds.
+Registered in 0.003515 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.406 seconds
+- Completed reload, in  2.540 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.2 MB.
+System memory in use after: 149.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2068.
+Total: 1.408584 ms (FindLiveObjects: 0.125125 ms CreateObjectMapping: 0.032208 ms MarkObjects: 1.226625 ms  DeleteObjects: 0.023542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.596 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.4 MB.
+System memory in use after: 149.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2072.
+Total: 1.424541 ms (FindLiveObjects: 0.132875 ms CreateObjectMapping: 0.031417 ms MarkObjects: 1.240375 ms  DeleteObjects: 0.018792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 484.726792 seconds.
+  path: Assets/PlayerListItem.cs
+  artifactKey: Guid(4c095e7a7b0fd4edab6a248ca05ce5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerListItem.cs using Guid(4c095e7a7b0fd4edab6a248ca05ce5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f5aaf9c7c707ae603c7460941af6e2') in 0.285750 seconds 
+  Import took 0.287530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.999521 seconds.
+  path: Assets/PlayerListItem.cs
+  artifactKey: Guid(4c095e7a7b0fd4edab6a248ca05ce5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerListItem.cs using Guid(4c095e7a7b0fd4edab6a248ca05ce5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edd52bdfa9a0000d3ac9ed60310854f') in 0.012487 seconds 
+  Import took 0.058131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 442.321372 seconds.
+  path: Assets/PlayerListItem.cs
+  artifactKey: Guid(4c095e7a7b0fd4edab6a248ca05ce5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerListItem.cs using Guid(4c095e7a7b0fd4edab6a248ca05ce5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b8a7558740dd7ddffb17f558753d04') in 0.014436 seconds 
+  Import took 0.053209 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003252 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.456 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 153.8 MB.
 System memory in use after: 153.9 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2075.
-Total: 2.797625 ms (FindLiveObjects: 0.143500 ms CreateObjectMapping: 0.031875 ms MarkObjects: 2.602167 ms  DeleteObjects: 0.018666 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 1.325875 ms (FindLiveObjects: 0.116708 ms CreateObjectMapping: 0.031334 ms MarkObjects: 1.161459 ms  DeleteObjects: 0.015500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -241,23 +257,85 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005957 seconds.
+Registered in 0.003121 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.369 seconds
+- Completed reload, in  2.509 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.0 MB.
-System memory in use after: 154.1 MB.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.2 MB.
+System memory in use after: 154.3 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2079.
-Total: 1.435208 ms (FindLiveObjects: 0.169875 ms CreateObjectMapping: 0.033541 ms MarkObjects: 1.209250 ms  DeleteObjects: 0.021583 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 1.404166 ms (FindLiveObjects: 0.147541 ms CreateObjectMapping: 0.032750 ms MarkObjects: 1.204542 ms  DeleteObjects: 0.018416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006706 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.466 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2084.
+Total: 1.457250 ms (FindLiveObjects: 0.143125 ms CreateObjectMapping: 0.033875 ms MarkObjects: 1.259959 ms  DeleteObjects: 0.018750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006891 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.568 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2088.
+Total: 1.542041 ms (FindLiveObjects: 0.145583 ms CreateObjectMapping: 0.032583 ms MarkObjects: 1.339625 ms  DeleteObjects: 0.023209 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -271,84 +349,177 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4391.876301 seconds.
-  path: Assets/Prefabs/RoomNameButton.prefab
-  artifactKey: Guid(d6c1d42caf7494b9e92d108668ee13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RoomNameButton.prefab using Guid(d6c1d42caf7494b9e92d108668ee13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbadde70fd4c3b37f3bc513885f477cc') in 0.177939 seconds 
-  Import took 0.180346 seconds .
+  Time since last request: 1163.880032 seconds.
+  path: Assets/Prefabs/PlayerListItem (TMP).prefab
+  artifactKey: Guid(46bfb185d47e14e53894e0b6df56eb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerListItem (TMP).prefab using Guid(46bfb185d47e14e53894e0b6df56eb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8edcadc074619aeb8c0c03d4216f9e1') in 0.175425 seconds 
+  Import took 0.177893 seconds .
 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2079.
-Total: 7.640875 ms (FindLiveObjects: 0.377375 ms CreateObjectMapping: 0.035333 ms MarkObjects: 7.146875 ms  DeleteObjects: 0.079958 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005792 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.370 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.5 MB.
-System memory in use after: 154.6 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2083.
-Total: 1.775375 ms (FindLiveObjects: 0.146333 ms CreateObjectMapping: 0.034666 ms MarkObjects: 1.567500 ms  DeleteObjects: 0.025958 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005549 seconds.
+Registered in 0.004407 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.323 seconds
+- Completed reload, in  2.491 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.9 MB.
+System memory in use after: 155.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2092.
+Total: 1.542209 ms (FindLiveObjects: 0.134083 ms CreateObjectMapping: 0.032625 ms MarkObjects: 1.352708 ms  DeleteObjects: 0.021250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001885 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.448 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.1 MB.
+System memory in use after: 155.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2096.
+Total: 1.279375 ms (FindLiveObjects: 0.117542 ms CreateObjectMapping: 0.030042 ms MarkObjects: 1.108500 ms  DeleteObjects: 0.022500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003192 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.846 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.3 MB.
+System memory in use after: 155.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2100.
+Total: 1.648208 ms (FindLiveObjects: 0.227625 ms CreateObjectMapping: 0.035083 ms MarkObjects: 1.352500 ms  DeleteObjects: 0.031750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010279 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.640 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1609 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.7 MB.
-System memory in use after: 154.8 MB.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.5 MB.
+System memory in use after: 155.6 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2087.
-Total: 1.340125 ms (FindLiveObjects: 0.153041 ms CreateObjectMapping: 0.030709 ms MarkObjects: 1.141959 ms  DeleteObjects: 0.013625 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 1.336875 ms (FindLiveObjects: 0.103292 ms CreateObjectMapping: 0.030625 ms MarkObjects: 1.183208 ms  DeleteObjects: 0.018542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.3 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 13.106500 ms (FindLiveObjects: 0.474291 ms CreateObjectMapping: 0.034500 ms MarkObjects: 12.548417 ms  DeleteObjects: 0.046833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006189 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yaroslavmoisiuk/Unity/Unity_FPS_photon/Unity_FPS_photon/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.394 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.9 MB.
+System memory in use after: 156.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 1.425916 ms (FindLiveObjects: 0.151083 ms CreateObjectMapping: 0.033208 ms MarkObjects: 1.223417 ms  DeleteObjects: 0.017333 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
